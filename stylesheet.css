@@ -1,0 +1,173 @@
+article, section, nav {
+  display: block;
+}
+
+* {
+  font-family: 'Titillium Web', sans-serif;}
+
+@font-face {
+  src: url('');
+}
+
+/* header */
+
+header {
+  height: 40px;
+  clear: both;
+}
+/* footer */
+
+footer {
+  clear: both;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 40px;
+  background-image: url(http://via.placeholder.com/360x65);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  color: white;
+}
+
+/* body */
+
+body {
+  background-color: #CED0CE;
+}
+/* nav */
+
+ul {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #69626D;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  width: 32.3%;
+}
+
+a {
+  color: #E6E8E6;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #AEAFAE;
+}
+
+/* for sale side menu */
+.side-menu {
+  float: left;
+  position:static;
+  width:10%;
+}
+
+.side-menu-content {
+  border: 1px solid black;
+}
+
+/* containers */
+
+.main-container {
+  border: 1px solid black;
+  background-color: #1C3738;
+  margin-top: 50px;
+}
+
+.side-container {
+  border: 1px solid black;
+}
+
+.main-content {
+  display: inline-block;
+  width: calc(33% - 4px);
+  height:150px;
+  border: 1px solid white;
+  background-color: #5C6D70;
+}
+
+.sale-items {
+  margin-left: 20px;
+  padding-left: 4px;
+  width: calc(80% - 4px);
+  float: left;
+  background-color: #1C3738;
+}
+
+.sale-item {
+  display: inline-block;
+  text-align: justify;
+  border: 1px solid white;
+  background-color: #5C6D70;
+}
+
+.sale-item img {
+  float: left;
+}
+
+.side-content {
+  display: block;
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+  margin-bottom: 2px;
+
+}
+
+.main-content {
+  text-align: center;
+  line-height: 150px;
+  color: white;
+}
+
+.side-content {
+  background-color: #ED6A5A;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+}
+
+fieldset {
+  color: black;
+  width: 85%;
+  margin-left: 10%;
+}
+input[type=text] {
+  width: 100%;
+}
+textarea {
+  width:100%;
+}
+button {
+  width: 100px;
+  float: right;
+  margin-top: 20px;
+}
+
+/* content */
+
+div {
+}
+
+/* @media query */
+
+@media (min-width: 800px) {
+  .sale-item {
+    width: calc(50% - 8px);
+  }
+  .main-container {
+    width: calc(80% - 4px);
+    float: left;
+  }
+
+  .side-container {
+    width: calc(20% - 4px);
+    float: right;
+    margin-top: 50px;
+  }
+}
